@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useMemo, useState } from "react";
 import { motion, AnimatePresence, animate } from "framer-motion";
 // 改成原生 HTML，不用安裝 UI 套件
@@ -265,7 +267,7 @@ export default function App() {
           placeholder="請輸入識別碼"
           value={customerId}
           onChange={(e) => setCustomerId(e.target.value)}
-          className="h-16 w-full rounded-[28px] border border-[#E8C89B] bg-white px-6 text-center text-2xl placeholder:text-[#6B7280] focus:outline-none"
+          className="h-16 w-full rounded-[28px] border border-[#D9B27C] bg-white px-6 text-center text-2xl font-bold text-[#2B1A12] placeholder:text-[#9CA3AF] focus:outline-none"
         />
       </div>
 
